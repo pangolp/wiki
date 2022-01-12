@@ -32,13 +32,14 @@ release = 'MIT'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'myst_parser',
     'sphinx.ext.autodoc',
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
     'sphinx_rtd_theme',
+    'sphinxcontrib.mermaid',
+    'myst_parser',
 ]
 
 source_suffix = {
