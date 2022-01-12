@@ -17,6 +17,8 @@
         <script src="_static/doctools.js"></script>
         <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
         <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" /> 
@@ -231,7 +233,8 @@
 <section id="uml-diagrams">
 <h2>UML diagrams<a class="headerlink" href="#uml-diagrams" title="Permalink to this headline"></a></h2>
 <p>You can render UML diagrams using <a class="reference external" href="https://mermaidjs.github.io/">Mermaid</a>. For example, this will produce a sequence diagram:</p>
-<div class="highlight-mermaid notranslate"><div class="highlight"><pre><span></span>sequenceDiagram
+<div class="mermaid">
+            sequenceDiagram
 Alice -&gt;&gt; Bob: Hello Bob, how are you?
 Bob--&gt;&gt;John: How about you John?
 Bob--x Alice: I am good thanks!
@@ -240,17 +243,14 @@ Note right of John: Bob thinks a long&lt;br/&gt;long time, so long&lt;br/&gt;tha
 
 Bob--&gt;Alice: Checking with John...
 Alice-&gt;John: Yes... John, how are you?
-</pre></div>
-</div>
-<p>And this will produce a flow chart:</p>
-<div class="highlight-mermaid notranslate"><div class="highlight"><pre><span></span>graph LR
+        </div><p>And this will produce a flow chart:</p>
+<div class="mermaid">
+            graph LR
 A[Square Rect] -- Link text --&gt; B((Circle))
 A --&gt; C(Round Rect)
 B --&gt; D{Rhombus}
 C --&gt; D
-</pre></div>
-</div>
-</section>
+        </div></section>
 </section>
 
 
