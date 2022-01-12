@@ -29,20 +29,26 @@ msgid ""
 "can edit me. Once you have finished with me, you can create new files by "
 "opening the **file explorer** on the left corner of the navigation bar."
 msgstr ""
+"Hola! Es tu primer archivo Markdown en **StackEdit**. Si quieres aprender "
+"sobre StackEdit, puedes leerme. Si quieres jugar con Markdown, puedes "
+" puede editarme. Una vez que hayas terminado conmigo, puedes crear nuevos archivos por "
+"abriendo el **explorador de archivos** en la esquina izquierda de la barra de navegación."
 
 #: ../../source/index.md:6
 msgid "Files"
-msgstr ""
+msgstr "Archivos"
 
 #: ../../source/index.md:8
 msgid ""
 "StackEdit stores your files in your browser, which means all your files "
 "are automatically saved locally and are accessible **offline!**"
 msgstr ""
+"StackEdit almacena sus archivos en su navegador, lo que significa que todos sus archivos "
+"se guardan automáticamente a nivel local y son accesibles **sin conexión**."
 
 #: ../../source/index.md:10
 msgid "Create files and folders"
-msgstr ""
+msgstr "Crear archivos y carpetas"
 
 #: ../../source/index.md:12
 msgid ""
