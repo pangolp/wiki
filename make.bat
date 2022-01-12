@@ -10,6 +10,15 @@ if "%SPHINXBUILD%" == "" (
 set SOURCEDIR=source
 set BUILDDIR=build
 
+if "%1" == "github" (
+    make html
+    make gettext
+    sphinx-intl update -p build/gettext -l es
+    sphinx-build -b html source build/html/es -D language='es'
+    robocopy build/html/. ./docs /E > nul
+    goto end
+)
+
 if "%1" == "" goto help
 
 %SPHINXBUILD% >NUL 2>NUL

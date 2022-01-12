@@ -21,5 +21,8 @@ help:
 
 github:
 	@make html
+	@make gettext
+	@sphinx-intl update -p build/gettext -l es
+	@sphinx-build -b html source build/html/es -D language='es'
 	@touch build/html/.nojekyll
 	@cp -r build/html/. ./docs
