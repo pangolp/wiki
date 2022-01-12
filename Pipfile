@@ -9,6 +9,7 @@ myst-parser = "*"
 sphinx-rtd-theme = "*"
 typing-extensions = "*"
 sphinxcontrib-mermaid = "*"
+sphinx-intl = "*"
 
 [scripts]
 

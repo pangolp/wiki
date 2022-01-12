@@ -72,3 +72,7 @@ html_static_path = ['_static']
 html_css_files = [
     'css/custom.css',
 ]
+
+# Internationalization
+locale_dirs = ['locale/']
+gettext_compact = False
